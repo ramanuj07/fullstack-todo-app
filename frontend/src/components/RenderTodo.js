@@ -4,7 +4,6 @@ const RenderTodo = ({ todos }) => {
   const [updatedTodos, setUpdatedTodos] = useState(todos);
 
   useEffect(() => {
-    // Update the local state when the todos prop changes
     setUpdatedTodos(todos);
   }, [todos]);
 
